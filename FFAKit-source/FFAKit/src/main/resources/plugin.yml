@@ -1,0 +1,13 @@
+name: FFAKit
+version: 1.0.0
+main: dev.ffakit.FFAKitPlugin
+api-version: '26.2'
+description: FFAサーバー用のキット作成・編集・配布プラグイン
+authors: [FFAKit]
+commands:
+  ffakit:
+    description: FFAKit の運営用コマンド (OPレベル4以上)
+    usage: "/<command> <book|setbase <キット名>|delete <キット名>|reset <プレイヤー> <キット名>>"
+  kit:
+    description: キットを配布します
+    usage: "/<command> give <プレイヤー名|@p|@a> <キット名>"
